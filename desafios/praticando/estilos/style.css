@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "undertale";
+    src: url("../fontes/MonsterFriendFore.otf")format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --fonte1: "undertale", Arial ;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header{
+    background-color: black;
+    min-height: 150px;
+}
+
+header h1{
+    font-family: var(--fonte1);
+    color: white;
+    padding-top:80px ;
+    margin: auto;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+nav{
+    padding: 10px;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover{
+    color: rgb(184, 10, 10);
+    transition-duration: 1s;
+}
+
+section > p#tipo{
+    text-indent: 0px;
+}
+
+section.imagem h1{
+    text-align: center;
+    font-family: var(--fonte1);
+    color: white;
+    padding: 200px 0px;
+    font-size: 1.5em;
+}
+section#img1{
+    background-image: url("../imagens/playstation-games.jpeg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.normal{
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin:30px auto 30px auto;
+}
+
+section.normal p{
+    text-indent: 40px;
+    padding: 30px;
+    text-align: justify;
+    line-height: 1.7em;
+}
+
+section.normal h2{
+    padding: 0px 0px 30px 30px;
+    font-size: 1.5em;
+}
+section.normal  img{
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
+
+footer > nav{
+    padding: 30px 0px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(184, 10, 10);
+    transition-duration: 1s;
+}
+footer p{
+    padding-bottom: 15px;
+}
